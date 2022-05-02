@@ -83,7 +83,7 @@ def SSE(centeriods):
     return round(distance,2)
 
 #main
-tweet=loadAndProcessData('https://raw.githubusercontent.com/Anirudh-thakur/TweetClustering/main/usnewshealth.txt')
+tweet=loadAndProcessData('https://raw.githubusercontent.com/Anirudh-thakur/TweetClustering/main/Part2/usnewshealth.txt')
 tweet_dic=dict(zip(tweet['ID'], tweet['TWEET']))
 centeriods={}
 k_Value=[5,10,15,20]
